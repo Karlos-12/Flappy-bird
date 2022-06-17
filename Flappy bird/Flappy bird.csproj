@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Flappy_bird</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="625217.jpg" />
+    <None Remove="m.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="625217.jpg" />
+    <Resource Include="m.jpg" />
+  </ItemGroup>
+
+</Project>
